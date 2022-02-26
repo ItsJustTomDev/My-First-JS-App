@@ -20,8 +20,8 @@ let pokemonRepo = [
 ];
 
 // forEach loop to get them item by item pushed into the array
-pokemonRepo.forEach((data) => {
-  pokemonList.push(data);
+pokemonRepo.forEach((pokemons) => {
+  pokemonList.push(pokemons);
 });
 
 // loop through all items
