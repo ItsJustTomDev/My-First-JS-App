@@ -4,14 +4,9 @@
   margin: 0;
 }
 
-.container {
-  display: flex;
+body {
   height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.title__text {
-  font-weight: bold;
-  font-style: italic;
 }
