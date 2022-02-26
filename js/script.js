@@ -18,6 +18,8 @@ let pokemonRepo = [
   },
 ];
 
-pokemonList.push(pokemonRepo);
+pokemonRepo.forEach((data) => {
+  pokemonList.push(data);
+});
 
 console.log(pokemonList);
