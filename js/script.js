@@ -25,14 +25,14 @@ pokemonRepo.forEach((pokemons) => {
 });
 
 // loop through all items
-for (let i = 0; i < pokemonList.length; i++) {
-  if (pokemonList[i].height == "0.6 m") {
+pokemonList.forEach((pokemon) => {
+  if (pokemon.height == "0.6 m") {
     document.write(
-      `${pokemonList[i].name} height (${pokemonList[i].height}) - Fire is cool! <br>` // IF the one of the pokemons heights is 0.6 add THEN this line executes
+      `${pokemon.name} height (${pokemon.height}) - Fire is cool! <br>` // IF the one of the pokemons heights is 0.6 add THEN this line executes
     );
   } else {
     document.write(
-      `${pokemonList[i].name} height (${pokemonList[i].height}) <br>` // otherwise this get executed
+      `${pokemon.name} height (${pokemon.height}) <br>` // otherwise this get executed
     );
   }
-}
+});
