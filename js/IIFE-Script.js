@@ -44,7 +44,7 @@ let pokemonRepository = (function () {
   };
 })();
 
-let addPokemon = pokemonRepository.add({
+pokemonRepository.add({
   name: "cat",
   height: 0.5,
   strenght: "fire",
