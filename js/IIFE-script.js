@@ -11,8 +11,7 @@ let pokemonRepository = (function () {
 
   return {
     add: add,
-    getAl: getAll,
-    pokemonList: pokemonList,
+    getAll: getAll,
   };
 })();
 
@@ -22,6 +21,6 @@ let addPokemon = pokemonRepository.add({
   strenght: "fire",
 });
 
-pokemonRepository.pokemonList.forEach((pokemon) => {
+pokemonRepository.getAll().forEach((pokemon) => {
   console.log(pokemon);
 });
