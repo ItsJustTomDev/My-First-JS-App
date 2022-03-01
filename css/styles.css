@@ -10,6 +10,7 @@ ul {
 }
 
 .pokemon__name {
+  text-align: center;
   font-size: large;
   padding: 1em 2em;
   color: whitesmoke;
@@ -45,16 +46,15 @@ ul {
 }
 
 .main__title {
-  padding-top: 1rem;
+  padding: 1rem;
   color: whitesmoke;
   text-align: center;
 }
 
 .main__items {
-  padding-top: 2rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  overflow-y: auto;
 }
 
 .pokemon-list {
