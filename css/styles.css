@@ -55,6 +55,8 @@ ul {
   display: flex;
   justify-content: center;
   overflow-y: auto;
+
+  margin-left: 1.5rem;
 }
 
 .pokemon-list {
